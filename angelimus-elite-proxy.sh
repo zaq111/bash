@@ -1,3 +1,4 @@
+clear
 echo "             - angelimus.com -"
 echo " 1. This is for free and personal use only, coorporate"
 echo "	   you're welcome to use it."
