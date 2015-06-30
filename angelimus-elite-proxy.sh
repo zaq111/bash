@@ -1,24 +1,24 @@
-echo                                                                   
-echo                                                                    
-echo       `@    :#   :@    @@   @@@'  @    @.   @   `   .@   +@  :@#   
-echo       @@,   +@#  +@  ;@'    @     @    @.  `@`  @@  .@   :@ :@     
-echo      ,@`@   +:@+ +# `@      @     @    @.  @+@ '@@  .@   :@ '@`    
-echo      @,:@+  @: @+++ @'   :  @@@   @    @.  @ @`@ @, .@   +@  :@@   
-echo     '@+::@  @:  @@+ @#   @  @     @    @. .@ .@: :@  @   @:    @   
-echo     @`   @@ @:   @:  @#..@  @:::  @++` @. @'  @   @  @@.#@   +@'   
-echo     #     , :.    :   ;@#:  :++'  :++` :` +       @`  ;@'    +     
-echo 	                                                                  
-echo                                     - angelimus.com -
-echo 		1. This is for free and personal use only, coorporate
-echo 		   you're welcome to use it.
-echo 		2. Re-Distribute? DO IT!!! NO PERMISSION NEEDED
-echo 		3. Remove Credit? NO PROBLEM!!
-echo 		4. SELL IT? GO AHEAD
-echo 		5. DIDN'T Like IT? JUST DELETE IT.
-echo 		6. DO WHAT YOU WANT TO DO, 
-echo 		   it's all about knowledge................
-echo 
-echo 		   
+echo ""                                                                 
+echo ""                                                                 
+echo "     `@    :#   :@    @@   @@@'  @    @.   @   `   .@   +@  :@#   "
+echo "     @@,   +@#  +@  ;@'    @     @    @.  `@`  @@  .@   :@ :@     "
+echo "    ,@`@   +:@+ +# `@      @     @    @.  @+@ '@@  .@   :@ '@`    "
+echo "    @,:@+  @: @+++ @'   :  @@@   @    @.  @ @`@ @, .@   +@  :@@   "
+echo "   '@+::@  @:  @@+ @#   @  @     @    @. .@ .@: :@  @   @:    @   "
+echo "   @`   @@ @:   @:  @#..@  @:::  @++` @. @'  @   @  @@.#@   +@'   "
+echo "   #     , :.    :   ;@#:  :++'  :++` :` +       @`  ;@'    +     "
+echo "                                                                  "
+echo "                                   - angelimus.com -"
+echo "	1. This is for free and personal use only, coorporate"
+echo "	   you're welcome to use it."
+echo " 2. Re-Distribute? DO IT!!! NO PERMISSION NEEDED"
+echo " 3. Remove Credit? NO PROBLEM!!"
+echo " 4. SELL IT? GO AHEAD"
+echo " 5. DIDN'T Like IT? JUST DELETE IT."
+echo " 6. DO WHAT YOU WANT TO DO, "
+echo "    it's all about knowledge................"
+echo ""
+echo ""	   
 read -p $'Press any key to continue...\n' -n1 key
 sleep 1
 clear
@@ -106,17 +106,17 @@ htpasswd -b -c /etc/squid/squid_access $username $password
 chkconfig squid on
 /etc/init.d/squid start
 clear
-echo -------------------------------------------------------------------------
-echo Now you're alredy done installing
-echo All credit belongs to
-echo http://www.squid-cache.org/Doc/config/acl/
-echo http://autoim.net/elite-squid-proxy-setup/
-echo http://www.cyberciti.biz/tips/howto-rhel-centos-fedora-squid-installation-configuration.html
-echo -------------------------------------------------------------------------
-echo      :: Elite Proxy ::
-echo      Username = $username
-echo      Password = $password
-echo --------------------------------- www.angelimus.com - 2015 --------------
-echo
-echo
+echo "-------------------------------------------------------------------------"
+echo "Now you're alredy done installing"
+echo "All credit belongs to"
+echo "http://www.squid-cache.org/Doc/config/acl/"
+echo "http://autoim.net/elite-squid-proxy-setup/"
+echo "http://www.cyberciti.biz/tips/howto-rhel-centos-fedora-squid-installation-configuration.html"
+echo "-------------------------------------------------------------------------"
+echo "      :: Elite Proxy ::"
+echo "    Username = $username"
+echo "    Password = $password"
+echo "--------------------------------- www.angelimus.com - 2015 --------------"
+echo ""
+echo ""
 read -p $'Press any key to continue...\n' -n1 key
