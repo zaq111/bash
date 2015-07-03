@@ -36,7 +36,7 @@ request_header_access Proxy-Connection allow all
 request_header_access User-Agent allow all
 request_header_access Cookie allow all
 request_header_access All deny all" >> /etc/squid/squid.conf
-version=squid -v
+version=$(squid -v | grep Squid)
 echo "Done... "
 echo "You have Elite Proxy Squid $version on your system"
 echo "angelimus.com"
