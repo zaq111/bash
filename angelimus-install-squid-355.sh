@@ -9,3 +9,4 @@ enabled=1
 gpgcheck=0" >> angelimus.repo
 sleep 1
 yum-config-manager --enable angelimus_squid
+yum -y update
