@@ -23,4 +23,4 @@ sleep 2
 
 wget http://vestacp.com/pub/vst-install.sh
 sleep 1
-sh vst-install.sh
+sh vst-install.sh --force
