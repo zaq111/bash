@@ -1,3 +1,4 @@
+clear
 echo "*********************************************"
 echo " "
 echo "Welcome to angelimus.com installer"
