@@ -1,3 +1,4 @@
+clear
 echo "INSTALL WINE NEED EPEL"
 echo "==============================="
 sleep 2
