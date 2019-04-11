@@ -1,2 +1,0 @@
-start /b C:\Users\xxx\AppData\Roaming\Proxifier\Profiles\hostus.ppx
-start /b stnlc -profile=C:\hostus.tlp -pw=Operavanjav4 -title="KONEKSI ANGELIMUS" -tracelog -kbdi
